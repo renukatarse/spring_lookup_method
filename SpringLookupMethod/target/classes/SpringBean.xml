@@ -1,0 +1,4 @@
+<bean id="requestProcessor" class=" com.scp.spring.SpringLookupMethod.RequestProcessor">
+<lookup-method name="getValidator" bean="validator"/>
+</bean>
+<bean id="vlidator" scope="prototype" class=" com.scp.spring.SpringLookupMethod.RequestValidator"/>
